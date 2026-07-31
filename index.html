@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tumelo Mahloane | IT Portfolio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;500;600;700;800&family=JetBrains+Mono:wght=400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS Styles -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body
+    class="bg-[#f8fafc] text-slate-700 overflow-x-hidden antialiased bg-dot-matrix relative"
+  >
+    <div
+      class="absolute top-48 left-10 w-24 h-24 rounded-full border border-slate-300/40 flex items-center justify-center text-slate-400/60 text-xs font-mono-tech select-none animate-float-slow -z-10"
+    >
+      &lt;cloud&gt;
+    </div>
+    <div
+      class="absolute top-[600px] right-12 w-28 h-28 rounded-full border border-slate-300/40 flex items-center justify-center text-slate-400/60 text-xs font-mono-tech select-none animate-float-slow -z-10"
+      style="animation-delay: 2s"
+    >
+      [sec_ops]
+    </div>
+    <div
+      class="absolute top-[1400px] left-8 w-32 h-32 rounded-full border border-slate-300/30 flex items-center justify-center text-slate-400/50 text-xs font-mono-tech select-none animate-float-slow -z-10"
+      style="animation-delay: 4s"
+    >
+      {db_node}
+    </div>
+
+    <div
+      class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-gradient-to-b from-slate-200/60 to-transparent rounded-full blur-[100px] -z-10"
+    ></div>
+
+    <nav class="sticky top-4 z-50 max-w-5xl mx-auto px-4 mt-4">
+      <div
+        class="backdrop-blur-xl bg-white/75 border border-slate-200/80 rounded-2xl px-6 py-3 flex justify-between items-center shadow-[0_10px_30px_rgba(0,0,0,0.03)]"
+      >
+        <a
+          href="#"
+          class="text-xl font-extrabold tracking-tight text-slate-900 transition-transform duration-300 hover:scale-105"
+        >
+          TM<span class="text-slate-400 font-light">.Dev</span>
+        </a>
+        <div
+          class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-wider text-slate-500"
+        >
+          <a
+            href="#about"
+            class="hover:text-slate-900 transition-all duration-200 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-slate-900 hover:after:w-full after:transition-all"
+            >About & Security</a
+          >
+          <a
+            href="#skills-section"
+            class="hover:text-slate-900 transition-all duration-200 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-slate-900 hover:after:w-full after:transition-all"
+            >Skills</a
+          >
+          <a
+            href="#projects-section"
+            class="hover:text-slate-900 transition-all duration-200 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-slate-900 hover:after:w-full after:transition-all"
+            >Projects</a
+          >
+          <a
+            href="#certifications"
+            class="hover:text-slate-900 transition-all duration-200 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-slate-900 hover:after:w-full after:transition-all"
+            >Certifications</a
+          >
+        </div>
+        <a
+          href="#contact"
+          class="px-5 py-2 bg-slate-900 text-white text-xs font-bold uppercase tracking-wider rounded-xl hover:bg-slate-800 transition-all duration-300 transform hover:-translate-y-0.5 shadow-md active:scale-95"
+        >
+          Connect
+        </a>
+      </div>
+    </nav>
+
+    <header
+      class="max-w-6xl mx-auto px-6 pt-16 pb-16 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
+    >
+      <div
+        class="lg:col-span-6 space-y-6 flex flex-col items-center lg:items-start text-center lg:text-left"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
+        <div class="relative group mb-2">
+          <div
+            class="absolute inset-0 bg-slate-200 rounded-2xl translate-x-2 translate-y-2 group-hover:translate-x-3 group-hover:translate-y-3 transition-transform duration-300"
+          ></div>
+          <div
+            class="relative w-40 h-40 bg-white border border-slate-200 p-1.5 rounded-2xl shadow-md overflow-hidden transition-all duration-300 group-hover:-translate-y-1"
+          >
+            <img
+              src="image_cb955d.jpg"
+              alt="Tumelo Mahloane Profile"
+              class="w-full h-full object-cover rounded-xl bg-slate-50 transition-all duration-700 group-hover:scale-110"
+            />
+          </div>
+        </div>
+
+        <div
+          class="inline-flex items-center gap-2 bg-white border border-slate-200 px-4 py-1.5 rounded-full text-[11px] font-bold tracking-wider text-slate-500 uppercase shadow-sm"
+        >
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+          North-West University Final year Student
+        </div>
+        <h1
+          class="text-5xl md:text-6xl font-black tracking-tight leading-none text-slate-900"
+        >
+          Hi, I'm <span class="text-silver-bright">Tumelo</span>
+        </h1>
+        <p
+          class="text-base text-slate-500 leading-relaxed max-w-xl font-normal"
+        >
+          Information Technology Student at North-West University Aspiring
+          Cybersecurity Analyst, Cloud Engineer, and Software Developer driven
+          by curiosity, innovation, and a passion for solving realworld
+          challenges.
+        </p>
+
+        <div
+          class="w-full max-w-md bg-white border border-slate-200/80 rounded-2xl p-4 shadow-sm space-y-3 text-left"
+        >
+          <span
+            class="text-[10px] font-mono-tech uppercase tracking-wider font-bold text-slate-400 block mb-1"
+          >
+            <i class="fas fa-network-wired text-blue-500 mr-1"></i> Technical
+            Connections Gateways
+          </span>
+          <div
+            class="grid grid-cols-2 gap-2 text-xs font-semibold text-slate-600"
+          >
+            <a
+              href="https://github.com/TumeloMahloane-Cyber"
+              target="_blank"
+              class="flex items-center gap-2.5 p-2 bg-slate-50 border border-slate-200 rounded-xl hover:bg-slate-900 hover:text-white hover:border-slate-900 transition duration-300"
+            >
+              <i class="fab fa-github text-sm"></i>
+              <span>GitHub Profiles</span>
+            </a>
+            <a
+              href="mailto:tumelomahloane2025@outlook.com"
+              class="flex items-center gap-2.5 p-2 bg-slate-50 border border-slate-200 rounded-xl hover:bg-blue-600 hover:text-white hover:border-blue-600 transition duration-300"
+            >
+              <i
+                class="fas fa-envelope-open text-sm text-blue-500 hover:text-white"
+              ></i>
+              <span>Outlook Account</span>
+            </a>
+            <a
+              href="mailto:tumelomahloane552@gmail.com"
+              class="flex items-center gap-2.5 p-2 bg-slate-50 border border-slate-200 rounded-xl hover:bg-red-600 hover:text-white hover:border-red-600 transition duration-300"
+            >
+              <i
+                class="fas fa-envelope text-sm text-red-500 hover:text-white"
+              ></i>
+              <span>Google Mail</span>
+            </a>
+            <a
+              href="tel:+27721715085"
+              class="flex items-center gap-2.5 p-2 bg-slate-50 border border-slate-200 rounded-xl hover:bg-emerald-600 hover:text-white hover:border-emerald-600 transition duration-300"
+            >
+              <i
+                class="fas fa-phone-alt text-sm text-emerald-500 hover:text-white"
+              ></i>
+              <span>Contact Number</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="pt-1 flex flex-wrap justify-center lg:justify-start gap-4">
+          <a
+            href="https://www.linkedin.com/in/tumelo-mahloane-1b2061363"
+            target="_blank"
+            class="px-5 py-3 bg-[#0077B5] hover:bg-[#006297] text-white font-semibold text-xs uppercase tracking-wider rounded-xl transition-all duration-300 flex items-center gap-2 shadow-md transform hover:-translate-y-0.5"
+          >
+            <i class="fab fa-linkedin text-base"></i> LinkedIn Connection
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="lg:col-span-6 flex justify-center w-full"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
+        <div class="relative group w-full max-w-xl">
+          <div
+            class="absolute -inset-1 bg-gradient-to-r from-slate-400 to-slate-200 rounded-3xl blur opacity-25 group-hover:opacity-45 transition duration-700"
+          ></div>
+
+          <div
+            class="relative w-full h-[360px] bg-[#111622] border border-slate-800 rounded-2xl flex flex-col overflow-hidden shadow-xl transition duration-500 group-hover:border-slate-700"
+          >
+            <div
+              class="flex items-center justify-between px-4 py-3 bg-[#0d111a] border-b border-slate-800/80"
+            >
+              <div class="flex space-x-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-red-500/80"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/80"></span>
+                <span
+                  class="w-2.5 h-2.5 rounded-full bg-green-500/40 transition duration-300 animate-beep-rapid"
+                ></span>
+              </div>
+              <span
+                id="terminal-filename"
+                class="text-xs font-mono-tech text-emerald-400/80 tracking-wider"
+                >QuickSort.java</span
+              >
+              <div class="w-10"></div>
+            </div>
+
+            <div class="relative flex-1 p-5 overflow-hidden">
+              <pre
+                id="java-terminal"
+                class="absolute inset-0 p-5 text-[10px] md:text-[11px] font-mono-tech select-none overflow-y-hidden text-slate-300 pointer-events-none whitespace-pre-wrap leading-relaxed text-left"
+              ></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="max-w-5xl mx-auto px-6 py-12" data-aos="fade-up">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        <div
+          class="lg:col-span-7 rounded-3xl bg-white border border-slate-200/80 p-8 md:p-10 shadow-sm flex flex-col justify-between hover:border-slate-300 transition duration-300"
+        >
+          <div class="space-y-5">
+            <div
+              class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-blue-600"
+            >
+              <i class="fas fa-user-shield"></i> Academic Profile & Core Focus
+            </div>
+            <h3 class="text-2xl font-extrabold tracking-tight text-slate-900">
+              Developing Secure Software Solutions From First Principles
+            </h3>
+            <p
+              class="text-slate-600 font-normal leading-relaxed text-sm md:text-base"
+            >
+              As a Computer Science and Information Systems student at
+              North-West University, my focus spans structural software design,
+              database normalization, and systemic problem solving. My core
+              interest lies in <strong>Cybersecurity</strong> architecting
+              robust system perimeters and neutralizing infrastructure
+              vulnerabilities before they threaten operations.
+            </p>
+            <p
+              class="text-slate-600 font-normal leading-relaxed text-sm md:text-base"
+            >
+              By combining backend engineering with proactive threat vector
+              analysis, I design defensive frameworks that safeguard data
+              pipelines against intrusion, unauthorized injection attacks, and
+              operational disruptions.
+            </p>
+          </div>
+
+          <div
+            class="grid grid-cols-3 gap-4 pt-6 mt-6 border-t border-slate-100 text-center lg:text-left"
+          >
+            <div>
+              <div class="text-xl font-black text-slate-900 font-mono-tech">
+                NWU
+              </div>
+              <div
+                class="text-[9px] text-slate-400 uppercase font-bold tracking-wider"
+              >
+                Academic Grounding
+              </div>
+            </div>
+            <div>
+              <div class="text-xl font-black text-slate-900 font-mono-tech">
+                CYBER
+              </div>
+              <div
+                class="text-[9px] text-slate-400 uppercase font-bold tracking-wider"
+              >
+                Primary Track
+              </div>
+            </div>
+            <div>
+              <div class="text-xl font-black text-slate-900 font-mono-tech">
+                DEV
+              </div>
+              <div
+                class="text-[9px] text-slate-400 uppercase font-bold tracking-wider"
+              >
+                Secure Architecture
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="lg:col-span-5 rounded-3xl bg-[#090d16] text-slate-200 p-6 flex flex-col justify-between shadow-md relative overflow-hidden border border-slate-800"
+        >
+          <div class="space-y-4">
+            <div
+              class="flex items-center justify-between border-b border-slate-800 pb-3"
+            >
+              <div
+                class="inline-flex items-center gap-2 text-xs font-mono-tech font-bold text-red-400 tracking-wider"
+              >
+                <span
+                  class="w-2 h-2 rounded-full bg-red-500 animate-pulse"
+                ></span>
+                THREAT_MONITOR.LOG
+              </div>
+              <span class="text-[9px] font-mono-tech text-slate-500"
+                >SEC_LEVEL_04</span
+              >
+            </div>
+
+            <div
+              class="min-h-[190px] font-mono-tech text-[10px] space-y-2 text-slate-400 overflow-y-hidden select-none"
+              id="cyber-threat-console"
+            ></div>
+          </div>
+
+          <div
+            class="pt-4 border-t border-slate-800 flex justify-between items-center font-mono-tech text-[10px]"
+          >
+            <span class="text-slate-500">Intrusion Prevention Status:</span>
+            <span
+              class="text-emerald-400 font-bold bg-emerald-950/40 px-2 py-0.5 rounded border border-emerald-800/30"
+              >ACTIVE</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills-section" class="max-w-5xl mx-auto px-6 py-12">
+      <div class="text-center max-w-md mx-auto mb-10">
+        <h2
+          class="text-3xl font-black text-slate-900 tracking-tight"
+          data-aos="fade-up"
+        >
+          Technical Frameworks
+        </h2>
+        <p
+          class="text-slate-400 text-xs uppercase tracking-wider mt-2"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          Click the functional categories to view specific components.
+        </p>
+      </div>
+
+      <div
+        class="flex justify-center p-1.5 bg-slate-200/60 backdrop-blur-md rounded-2xl max-w-xl mx-auto mb-10 border border-slate-200/40"
+        data-aos="fade-up"
+      >
+        <button
+          onclick="switchSkillTab('core-tech')"
+          id="btn-core-tech"
+          class="flex-1 py-3 text-xs font-bold uppercase tracking-wider rounded-xl text-slate-800 transition-all duration-300 scale-[0.99] active:scale-95 bg-white shadow-sm active-tab-glow"
+        >
+          Software & Code
+        </button>
+        <button
+          onclick="switchSkillTab('data-systems')"
+          id="btn-data-systems"
+          class="flex-1 py-3 text-xs font-bold uppercase tracking-wider rounded-xl text-slate-500 transition-all duration-300 scale-[0.99] active:scale-95 hover:text-slate-800"
+        >
+          Systems & Analytics
+        </button>
+        <button
+          onclick="switchSkillTab('methodology')"
+          id="btn-methodology"
+          class="flex-1 py-3 text-xs font-bold uppercase tracking-wider rounded-xl text-slate-500 transition-all duration-300 scale-[0.99] active:scale-95 hover:text-slate-800"
+        >
+          Cybersecurity Ops
+        </button>
+      </div>
+
+      <div class="min-h-[220px] relative">
+        <div
+          id="tab-core-tech"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 transition-all duration-300 opacity-100 scale-100"
+        >
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-lg border border-slate-100"
+            >
+              <i class="fab fa-java"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">Java</h5>
+              <p class="text-[11px] text-slate-400">NWU Core Development</p>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-lg border border-slate-100"
+            >
+              <i class="fab fa-python"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">Python</h5>
+              <p class="text-[11px] text-slate-400">Scripting & Logic</p>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-sm font-mono border border-slate-100"
+            >
+              C++
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">C++</h5>
+              <p class="text-[11px] text-slate-400">Low-Level Syntax</p>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-sm font-mono border border-slate-100"
+            >
+              C#
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">C#</h5>
+              <p class="text-[11px] text-slate-400">Application Engineering</p>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-lg border border-slate-100"
+            >
+              <i class="fab fa-html5"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">HTML</h5>
+              <p class="text-[11px] text-slate-400">Structure & Markup</p>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-lg border border-slate-100"
+            >
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">CSS</h5>
+              <p class="text-[11px] text-slate-400">Style Architecture</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="tab-data-systems"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 transition-all duration-300 opacity-0 scale-95 hidden"
+        >
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-lg border border-slate-100"
+            >
+              <i class="fas fa-database"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">SQL</h5>
+              <p class="text-[11px] text-slate-400">
+                Database Engine Logic (NWU)
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-lg border border-slate-100"
+            >
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">
+                Analytical Skills
+              </h5>
+              <p class="text-[11px] text-slate-400">Data Verification</p>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-lg border border-slate-100"
+            >
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">
+                Creative Problem Solving
+              </h5>
+              <p class="text-[11px] text-slate-400">Algorithmic Resolution</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="tab-methodology"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 transition-all duration-300 opacity-0 scale-95 hidden"
+        >
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-lg border border-slate-100"
+            >
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">
+                Network Security Basics
+              </h5>
+              <p class="text-[11px] text-slate-400">Great Learning Systems</p>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-lg border border-slate-100"
+            >
+              <i class="fas fa-key"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">
+                Cryptography Fundamentals
+              </h5>
+              <p class="text-[11px] text-slate-400">Encryption Paradigms</p>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-slate-200/80 p-4 rounded-xl shadow-sm flex items-center gap-4 hover:border-slate-400 transition-all"
+          >
+            <div
+              class="w-10 h-10 rounded-lg bg-slate-50 flex items-center justify-center text-slate-700 text-lg border border-slate-100"
+            >
+              <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-sm text-slate-900">Risk Management</h5>
+              <p class="text-[11px] text-slate-400">Threat Mitigation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="projects-section"
+      class="max-w-5xl mx-auto px-6 py-12 relative"
+    >
+      <div
+        class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4"
+      >
+        <div>
+          <h2
+            class="text-3xl font-black text-slate-900 tracking-tight"
+            data-aos="fade-up"
+          >
+            Engineering Project Space
+          </h2>
+          <p
+            class="text-slate-400 text-xs uppercase tracking-wider mt-1"
+            data-aos="fade-up"
+          ></p>
+        </div>
+
+        <button
+          onclick="togglePipelineEngine()"
+          id="shuffler-control-btn"
+          class="inline-flex items-center gap-2.5 px-4 py-2.5 bg-blue-50/90 text-blue-700 border border-blue-200/80 rounded-xl font-mono-tech text-[10px] uppercase font-bold shadow-sm transition-all duration-300 hover:scale-[1.02] active:scale-95 cursor-pointer"
+        >
+          <span
+            id="shuffler-dot"
+            class="w-2.5 h-2.5 rounded-full bg-blue-500 animate-pulse-blue"
+          ></span>
+          <span id="shuffler-label">Auto-Shuffling Pipeline Active</span>
+        </button>
+      </div>
+
+      <div
+        class="hidden lg:block absolute left-12 right-12 top-[240px] h-2 pointer-events-none -z-10"
+      >
+        <svg
+          class="w-full h-full opacity-20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="0"
+            y1="4"
+            x2="100%"
+            y2="4"
+            stroke="#475569"
+            stroke-width="2"
+            class="pipeline-line"
+          />
+        </svg>
+      </div>
+
+      <div
+        id="project-grid-wrapper"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
+      >
+        <!-- Accessible Project 1: B-Tech Game Development -->
+        <a
+          href="https://github.com/TumeloMahloane-Cyber/B-TECH-GAME.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="card-btech"
+          class="project-interactive-card project-card-transition bg-white border border-slate-200 rounded-2xl p-4 flex flex-col justify-between group hover:border-slate-900 hover:shadow-xl transform hover:-translate-y-1 block cursor-pointer"
+          data-aos="zoom-in"
+        >
+          <div class="space-y-3">
+            <div
+              class="relative w-full aspect-[4/3] bg-gradient-to-br from-[#0f172a] via-[#112229] to-[#064e3b] rounded-xl overflow-hidden shadow-sm flex flex-col justify-between p-3 font-mono-tech text-[9px] text-emerald-400 border border-emerald-900/30"
+            >
+              <div class="flex justify-between items-center opacity-40">
+                <span>[ENGINE_INIT]</span>
+                <i
+                  class="fas fa-gamepad text-xs group-hover:rotate-12 transition"
+                ></i>
+              </div>
+              <div
+                class="text-center text-xs tracking-wider text-emerald-100/90 uppercase font-bold py-2"
+              >
+                B-Tech Game Architecture
+              </div>
+              <div class="flex justify-between items-center opacity-40">
+                <span>v1.0.0</span>
+                <span
+                  >LIVE <i class="fas fa-external-link-alt text-[8px]"></i
+                ></span>
+              </div>
+            </div>
+            <div class="space-y-1.5">
+              <div>
+                <span
+                  class="text-[9px] uppercase font-bold tracking-wider text-purple-600 bg-purple-50 border border-purple-100 px-2 py-0.5 rounded-full"
+                >
+                  Interactive Logic
+                </span>
+              </div>
+              <h4
+                class="font-bold text-slate-900 text-sm group-hover:text-slate-950 transition"
+              >
+                B-Tech Game Development
+              </h4>
+              <p class="text-[11px] text-slate-500 leading-relaxed font-normal">
+                Application utilizing structural core loop mechanics and
+                computation workflows.
+              </p>
+            </div>
+          </div>
+          <div
+            class="mt-3 pt-2 border-t border-slate-100 flex justify-between items-center text-[9px] text-slate-400 font-mono-tech"
+          >
+            <span>Dev Suite</span>
+            <span class="text-slate-900 font-bold">NWU Academic</span>
+          </div>
+        </a>
+
+        <!-- Accessible Project 2: Networking Topologies -->
+        <a
+          href="https://github.com/TumeloMahloane-Cyber/Enterprise-Network-Infrastructure-Design-Simulation"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="card-networking"
+          class="project-interactive-card project-card-transition bg-white border border-slate-200 rounded-2xl p-4 flex flex-col justify-between group hover:border-slate-900 hover:shadow-xl transform hover:-translate-y-1 block cursor-pointer"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+        >
+          <div class="space-y-3">
+            <div
+              class="relative w-full aspect-[4/3] bg-gradient-to-br from-[#0f172a] via-[#111e36] to-[#1e3a8a] rounded-xl overflow-hidden shadow-sm flex flex-col justify-between p-3 font-mono-tech text-[9px] text-blue-400 border border-blue-900/30"
+            >
+              <div class="flex justify-between items-center opacity-40">
+                <span>[PORT_CONFIG]</span>
+                <i
+                  class="fas fa-network-wired text-xs group-hover:scale-110 transition"
+                ></i>
+              </div>
+              <div
+                class="text-center text-xs tracking-wider text-blue-100/90 uppercase font-bold py-2"
+              >
+                Packet Flow Matrix Frame
+              </div>
+              <div class="flex justify-between items-center opacity-40">
+                <span>IP_PROTO_v4</span>
+                <span
+                  >MAP <i class="fas fa-external-link-alt text-[8px]"></i
+                ></span>
+              </div>
+            </div>
+            <div class="space-y-1.5">
+              <div>
+                <span
+                  class="text-[9px] uppercase font-bold tracking-wider text-blue-600 bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full"
+                >
+                  Infrastructure
+                </span>
+              </div>
+              <h4
+                class="font-bold text-slate-900 text-sm group-hover:text-slate-950 transition"
+              >
+                Networking Topologies
+              </h4>
+              <p class="text-[11px] text-slate-500 leading-relaxed font-normal">
+                Design and validation of structured subnet masks and packet
+                metrics rules.
+              </p>
+            </div>
+          </div>
+          <div
+            class="mt-3 pt-2 border-t border-slate-100 flex justify-between items-center text-[9px] text-slate-400 font-mono-tech"
+          >
+            <span>Packet Engine</span>
+            <span class="text-slate-900 font-bold">NWU Academic</span>
+          </div>
+        </a>
+
+        <!-- Inaccessible Project 1: Tutoring Admin Stack -->
+        <div
+          id="card-tutoring"
+          title="Still in progress"
+          class="project-interactive-card project-card-transition bg-white border border-slate-200 rounded-2xl p-4 flex flex-col justify-between group hover:border-amber-400 hover:shadow-md cursor-not-allowed opacity-80"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
+          <div class="space-y-3">
+            <div
+              class="relative w-full aspect-[4/3] bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#451a03] rounded-xl overflow-hidden shadow-sm flex flex-col justify-between p-3 font-mono-tech text-[9px] text-amber-400 border border-amber-900/30"
+            >
+              <div class="flex justify-between items-center opacity-40">
+                <span>[RELATION_DB]</span>
+                <i class="fas fa-lock text-xs"></i>
+              </div>
+              <div
+                class="text-center text-xs tracking-wider text-amber-100/90 uppercase font-bold py-2"
+              >
+                Tutoring Data Blueprint
+              </div>
+              <div class="flex justify-between items-center opacity-40">
+                <span>3NF_SCHEMA</span>
+                <span class="text-[8px] font-bold uppercase text-amber-300"
+                  >In Progress</span
+                >
+              </div>
+            </div>
+            <div class="space-y-1.5">
+              <div>
+                <span
+                  class="text-[9px] uppercase font-bold tracking-wider text-amber-600 bg-amber-50 border border-amber-100 px-2 py-0.5 rounded-full"
+                >
+                  Systems Design
+                </span>
+              </div>
+              <h4 class="font-bold text-slate-900 text-sm">
+                Tutoring Admin Stack
+              </h4>
+              <p class="text-[11px] text-slate-500 leading-relaxed font-normal">
+                Multi-tier administrative schemas blueprint using Data Flow
+                Diagrams.
+              </p>
+            </div>
+          </div>
+          <div
+            class="mt-3 pt-2 border-t border-slate-100 flex justify-between items-center text-[9px] text-slate-400 font-mono-tech"
+          >
+            <span>UML Model</span>
+            <span class="text-amber-600 font-bold">Still in progress</span>
+          </div>
+        </div>
+
+        <!-- Inaccessible Project 2: Website Project -->
+        <div
+          id="card-website"
+          title="Still in progress"
+          class="project-interactive-card project-card-transition bg-white border border-slate-200 rounded-2xl p-4 flex flex-col justify-between group hover:border-indigo-400 hover:shadow-md cursor-not-allowed opacity-80"
+          data-aos="zoom-in"
+          data-aos-delay="150"
+        >
+          <div class="space-y-3">
+            <div
+              class="relative w-full aspect-[4/3] bg-gradient-to-br from-[#0f172a] via-[#1e1b4b] to-[#4338ca] rounded-xl overflow-hidden shadow-sm flex flex-col justify-between p-3 font-mono-tech text-[9px] text-indigo-400 border border-indigo-900/30"
+            >
+              <div class="flex justify-between items-center opacity-40">
+                <span>[HTTP_RENDER]</span>
+                <i class="fas fa-lock text-xs"></i>
+              </div>
+              <div
+                class="text-center text-xs tracking-wider text-indigo-100/90 uppercase font-bold py-2"
+              >
+                Production Website Instance
+              </div>
+              <div class="flex justify-between items-center opacity-40">
+                <span>DOM_TREE</span>
+                <span class="text-[8px] font-bold uppercase text-indigo-300"
+                  >In Progress</span
+                >
+              </div>
+            </div>
+            <div class="space-y-1.5">
+              <div>
+                <span
+                  class="text-[9px] uppercase font-bold tracking-wider text-indigo-600 bg-indigo-50 border border-indigo-100 px-2 py-0.5 rounded-full"
+                >
+                  Web Engineering
+                </span>
+              </div>
+              <h4 class="font-bold text-slate-900 text-sm">Website Project</h4>
+              <p class="text-[11px] text-slate-500 leading-relaxed font-normal">
+                Development of clean front-end application layers matching
+                modern design patterns.
+              </p>
+            </div>
+          </div>
+          <div
+            class="mt-3 pt-2 border-t border-slate-100 flex justify-between items-center text-[9px] text-slate-400 font-mono-tech"
+          >
+            <span>Vanilla / Tail</span>
+            <span class="text-indigo-600 font-bold">Still in progress</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="max-w-5xl mx-auto px-6 py-12">
+      <div
+        class="border border-slate-200 bg-white rounded-2xl p-8 md:p-12 shadow-sm"
+      >
+        <div class="mb-10 flex justify-between items-end">
+          <div>
+            <h2 class="text-2xl font-bold text-slate-900 tracking-tight">
+              Verified Certifications
+            </h2>
+            <p class="text-xs text-slate-400 uppercase tracking-wider mt-1">
+              Official credentials issued by global networking academy
+              ecosystems.
+            </p>
+          </div>
+          <i class="fas fa-shield-check text-xl text-slate-400"></i>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div
+            class="bg-slate-50 border border-slate-200 p-4 rounded-2xl flex flex-col justify-between group hover:bg-white hover:border-slate-300 hover:shadow-lg transition-all duration-300"
+            data-aos="zoom-in"
+          >
+            <div class="space-y-4">
+              <div
+                class="relative w-full aspect-[4/3] bg-white rounded-xl border border-slate-200/60 overflow-hidden shadow-sm transition-transform duration-300 group-hover:scale-[1.01]"
+              >
+                <img
+                  src="image_cc955e.png"
+                  alt="Introduction to IoT and Digital Transformation Certificate"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="px-2 space-y-2">
+                <div class="flex items-center justify-between">
+                  <span
+                    class="text-[10px] uppercase font-bold tracking-wider text-blue-600 bg-blue-50 border border-blue-100 px-2.5 py-0.5 rounded-full"
+                  >
+                    IoT & Networking
+                  </span>
+                  <i
+                    class="fa-solid fa-circle-check text-emerald-500 text-sm"
+                  ></i>
+                </div>
+                <h4
+                  class="font-bold text-slate-900 text-base group-hover:text-slate-950 transition"
+                >
+                  Introduction to IoT and Digital Transformation
+                </h4>
+                <p class="text-xs text-slate-500 font-medium">Cisco Academy</p>
+              </div>
+            </div>
+            <div
+              class="mt-6 mx-2 pt-4 border-t border-slate-200/60 flex justify-between items-center"
+            >
+              <a
+                href="iot_certificate.pdf"
+                target="_blank"
+                class="text-xs font-bold text-slate-900 hover:text-slate-950 inline-flex items-center gap-1.5"
+              >
+                View Official PDF File
+                <i class="fas fa-arrow-up-right-from-square text-[9px]"></i>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="bg-slate-50 border border-slate-200 p-4 rounded-2xl flex flex-col justify-between group hover:bg-white hover:border-slate-300 hover:shadow-lg transition-all duration-300"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="space-y-4">
+              <div
+                class="relative w-full aspect-[4/3] bg-white rounded-xl border border-slate-200/60 overflow-hidden shadow-sm transition-transform duration-300 group-hover:scale-[1.01]"
+              >
+                <img
+                  src="image_cc94fa.png"
+                  alt="Introduction to Cybersecurity Certificate"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="px-2 space-y-2">
+                <div class="flex items-center justify-between">
+                  <span
+                    class="text-[10px] uppercase font-bold tracking-wider text-emerald-600 bg-emerald-50 border border-emerald-100 px-2.5 py-0.5 rounded-full"
+                  >
+                    Security Operations
+                  </span>
+                  <i
+                    class="fa-solid fa-circle-check text-emerald-500 text-sm"
+                  ></i>
+                </div>
+                <h4
+                  class="font-bold text-slate-900 text-base group-hover:text-slate-950 transition"
+                >
+                  Introduction to Cybersecurity
+                </h4>
+                <p class="text-xs text-slate-500 font-medium">Cisco Academy</p>
+              </div>
+            </div>
+            <div
+              class="mt-6 mx-2 pt-4 border-t border-slate-200/60 flex justify-between items-center"
+            >
+              <a
+                href="cyber_certificate.pdf"
+                target="_blank"
+                class="text-xs font-bold text-slate-900 hover:text-slate-950 inline-flex items-center gap-1.5"
+              >
+                View Official PDF File
+                <i class="fas fa-arrow-up-right-from-square text-[9px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      id="contact"
+      class="bg-white border-t border-slate-200 text-slate-400 mt-20"
+    >
+      <div
+        class="max-w-5xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-left items-start"
+      >
+        <div class="space-y-3">
+          <h4
+            class="text-sm font-extrabold text-slate-900 uppercase tracking-wider"
+          >
+            Tumelo Mahloane
+          </h4>
+          <p class="text-xs text-slate-500 leading-relaxed font-normal">
+            Specialized IT architecture student
+          </p>
+        </div>
+
+        <div class="space-y-2.5">
+          <h4
+            class="text-xs font-bold text-slate-900 uppercase tracking-widest"
+          >
+            Communications Hub
+          </h4>
+          <ul class="text-xs space-y-1.5 font-mono-tech text-slate-600">
+            <li class="flex items-center gap-2">
+              <i
+                class="fas fa-envelope-open text-blue-500 w-3.5 text-center"
+              ></i>
+              <a
+                href="mailto:tumelomahloane2025@outlook.com"
+                class="hover:underline"
+                >tumelomahloane2025@outlook.com</a
+              >
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fas fa-envelope text-red-500 w-3.5 text-center"></i>
+              <a href="mailto:tumelomahloane@gmail.com" class="hover:underline"
+                >tumelomahloane552@gmail.com</a
+              >
+            </li>
+            <li class="flex items-center gap-2">
+              <i
+                class="fas fa-phone-alt text-emerald-500 w-3.5 text-center"
+              ></i>
+              <a href="tel:+27600000000" class="hover:underline"
+                >+27721715085</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="space-y-3 md:text-right md:flex md:flex-col md:items-end">
+          <h4
+            class="text-xs font-bold text-slate-900 uppercase tracking-widest"
+          >
+            Source Distribution
+          </h4>
+          <div class="flex gap-2">
+            <a
+              href="https://github.com/TumeloMahloane-Cyber"
+              target="_blank"
+              class="w-8 h-8 rounded-lg bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-700 hover:bg-slate-900 hover:text-white transition"
+              ><i class="fab fa-github text-sm"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/tumelo-mahloane-1b2061363"
+              target="_blank"
+              class="w-8 h-8 rounded-lg bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-700 hover:bg-[#0077B5] hover:text-white transition"
+              ><i class="fab fa-linkedin-in text-sm"></i
+            ></a>
+          </div>
+          <div class="text-[9px] font-mono-tech text-slate-400 pt-2 uppercase">
+            &copy; 2026 Tumelo Mahloane.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
